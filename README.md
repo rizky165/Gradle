@@ -20,4 +20,25 @@ task greetingTask {
     }
 }
 ```
-Langkah selanjutnya tambahkah pustaka dengan menggunakan fitur bawaan gradle
+Langkah selanjutnya tambahkah pustaka dengan menggunakan fitur bawaan gradle ke file build.gradle Anda:
+```
+dependencies {
+implementation 'com.google.guava:guava:29.0-jre'
+testImplementation 'junit:junit:4.13'
+}
+```
+Terakhir, dorong proyek ke GitHub dengan membuat repositori baru dan menjalankan perintah berikut:
+```
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/<your_username>/<repository_name>.git
+git push -u origin master
+```
+Untuk Anda dapat menjalankan tugas dengan menjalankan perintah berikut: 
+```
+"./gradlew greetingTask -Pname=YourName"
+```
+**HASIL**
+=========
+Hasil dari script yang dijalankan yaitu :
