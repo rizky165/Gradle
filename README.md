@@ -42,3 +42,5 @@ Untuk Anda dapat menjalankan tugas dengan menjalankan perintah berikut:
 **HASIL**
 =========
 Hasil dari script yang dijalankan yaitu :
+![Hasil](https://github.com/user-attachments/assets/62742272-cfb7-4ffe-9f95-b7c1aad7eeb1)
+
